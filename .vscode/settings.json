@@ -1,7 +1,7 @@
 // 将设置放入此文件中以覆盖默认值和用户设置。
 {
             "clang.executable": "C:/Program Files/LLVM/bin/clang.exe",
-            "code-runner.runInTerminal": true,
+            
             "terminal.integrated.fontSize": 16,
             "terminal.integrated.cursorBlinking": true,
             "editor.fontFamily": "Consolas, 'Courier New', monospace",
@@ -43,8 +43,45 @@
                 "*.fls",
                 "*.log",
                 "*.fdb_latexmk",
-                "*.synctex.gz",
+                "*.synctex.gz"
             ],
+            "code-runner.executorMap": {
+                "javascript": "node",
+                "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+                "c": "cd $dir && gcc $fileName -std=c99 -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+                "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+                "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+                "php": "php",
+                "python": "python",
+                "perl": "perl",
+                "ruby": "ruby",
+                "go": "go run",
+                "lua": "lua",
+                "groovy": "groovy",
+                "powershell": "powershell -ExecutionPolicy ByPass -File",
+                "bat": "cmd /c",
+                "shellscript": "bash",
+                "fsharp": "fsi",
+                "csharp": "scriptcs",
+                "vbscript": "cscript //Nologo",
+                "typescript": "ts-node",
+                "coffeescript": "coffee",
+                "scala": "scala",
+                "swift": "swift",
+                "julia": "julia",
+                "crystal": "crystal",
+                "ocaml": "ocaml",
+                "r": "Rscript",
+                "applescript": "osascript",
+                "clojure": "lein exec",
+                "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+                "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+                "racket": "racket",
+                "ahk": "autohotkey",
+                "autoit": "autoit3",
+                "kotlin": "cd $dir && kotlinc $fileName -include-runtime -d $fileNameWithoutExt.jar && java -jar $fileNameWithoutExt.jar"
+            },
+            "code-runner.runInTerminal": true,
             
             
 
