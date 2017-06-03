@@ -1,1 +1,2 @@
-# Clang_practical_example
+#Clang Practical Examples
+##Simple implementation
