@@ -4,7 +4,6 @@
             
             "terminal.integrated.fontSize": 16,
             "terminal.integrated.cursorBlinking": true,
-            "editor.fontFamily": "Consolas, 'Courier New', monospace",
             "editor.fontSize": 20,
             "editor.tabSize": 4,
             "terminal.integrated.fontFamily": "consolas",
@@ -82,6 +81,19 @@
                 "kotlin": "cd $dir && kotlinc $fileName -include-runtime -d $fileNameWithoutExt.jar && java -jar $fileNameWithoutExt.jar"
             },
             "code-runner.runInTerminal": true,
+            "files.autoSave": "afterDelay",
+            "files.autoSaveDelay": 800,
+            "editor.fontFamily": "Consolas",
+            "code-runner.saveFileBeforeRun": true,
+            "code-runner.clearPreviousOutput": true,
+            "files.encoding": "utf8",
+            "python.linting.pylintEnabled": false,
+            "editor.minimap.enabled": true,
+            "C_Cpp.autocomplete": "Default",
+            "workbench.colorTheme": "Monokai Mega",
+            "workbench.iconTheme": "vscode-icons",
+            
+    
             
             
 
