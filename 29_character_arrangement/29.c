@@ -20,14 +20,13 @@ char perm(int n, char *s)
 	}
 }
 int main(){
-    char string[100];
+    char string[20];
     int length;
     printf("This is a char permutation\n");
     printf("Please input a string\n");
-    scanf("%s",string);
+	scanf("%s",string);
     printf("Please input the character length\n");
-    scanf("%d",&length);
+	scanf("%d",&length);
     printf("The pemutated chars\n");
     perm(length,string);
-
 }
