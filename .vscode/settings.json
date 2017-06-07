@@ -3,7 +3,7 @@
     "clang.executable": "C:/Program Files/LLVM/bin/clang.exe",
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.cursorBlinking": true,
-    "editor.fontSize": 20,
+    "editor.fontSize": 18,
     "editor.tabSize": 4,
     "terminal.integrated.fontFamily": "consolas",
     "clang.completion.enable": true,
