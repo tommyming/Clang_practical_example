@@ -3,7 +3,7 @@
     "command": "gcc",
     "isShellCommand": true,
     "args": [
-        "-std=c99","-O3","test.c","-g"
+        "-std=c99","-O3","test.c","-g", "-I 'C:/Program Files (x86)/Windows Kits/10/Include/10.0.10240.0/ucrt' "
     ],
     "showOutput": "always"
 }
