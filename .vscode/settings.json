@@ -52,11 +52,10 @@
     "editor.minimap.enabled": true,
     "workbench.colorTheme": "Monokai Mega",
     "workbench.iconTheme": "vscode-icons",
-    "clang.cflags": [
-        "-std=c99"
-    ],
+    "clang.cflags": ["-std=c99"],
     "C_Cpp.intelliSenseEngine": "Default",
     "C_Cpp.clang_format_sortIncludes": true,
     "python.linting.pep8Enabled": true,
-    "C_Cpp.clang_format_path": "C:/Program Files/LLVM/bin/clang-format.exe"
+    "C_Cpp.clang_format_path": "C:/Program Files/LLVM/bin/clang-format.exe",
+    "clang.diagnostic.delay": 100
 }
